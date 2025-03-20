@@ -190,6 +190,12 @@ fieldset legend {
     outline: none;
 }
 
+#error-message {
+    font-family: 'Inter', sans-serif;
+    color: red;
+    display: none;
+}
+
 .button-login button {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
