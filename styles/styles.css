@@ -197,6 +197,7 @@ fieldset legend {
 }
 
 .button-login button {
+    cursor: pointer;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     background: var(--kaki-green);
@@ -207,6 +208,11 @@ fieldset legend {
     margin-bottom: 28px;
 }
 
+.button-login button:hover {
+    transform: scale(1.01);
+    background-color: rgb(165, 91, 42);
+}
+
 .button-login p {
     font-family: 'Inter', sans-serif;
 }
@@ -215,4 +221,10 @@ fieldset legend {
     text-decoration: none;
     color: var(--kaki-green);
     font-weight: bold;
+    display: inline-block;
+}
+
+.button-login a:hover {
+    transform: scale(1.1);
+    color: rgb(165, 91, 42);
 }
