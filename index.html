@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
     <title>Sign-Up Form</title>
 </head>
 <body>
+    <div class="container">
+        <div class="left-side">
+            <img src="./images/main.jpg" alt="soccer background" class="main-img">
+            <div class="brand">
+                <img src="./images/odin.png" alt="odin logo">
+                <h1>ODIN</h1>
+            </div>
+            <p class="credits">Photo by <a href="https://unsplash.com/fr/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com">Unsplash</a></p>
+        </div>
     
+        <div class="right-side">
+            <p>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started
+            </p>
+            <p>You know you want to.</p>
+    
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text">
+    
+                    <label for="email">EMAIL</label>
+                    <input type="email">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel">
+    
+                    <label for="password">PASSWORD</label>
+                    <input type="password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password">
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+    </div>
+    
+
     <script src="./scripts/script.js"></script>
 </body>
 </html>
